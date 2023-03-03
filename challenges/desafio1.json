@@ -1,8 +1,8 @@
 {
   "tabela_usuario": "tabela_usuarios",
-  "coluna_usuario": "nome",
+  "coluna_usuario": "usuario_id",
   "tabela_plano": "tabela_planos",
-  "coluna_plano": "nome",
+  "coluna_plano": "plano_id",
   "tabela_historico_de_reproducoes": "tabela_reproducoes",
   "coluna_historico_de_reproducoes": "cancao_id",
   "tabela_seguindo_artistas": "tabela_seguindo_artistas",
