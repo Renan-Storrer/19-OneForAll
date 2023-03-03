@@ -20,4 +20,4 @@
 -- INSERT INTO SpotifyClone.tabela2 (coluna1, coluna2)
 -- VALUES
 --   ('exemplo de dados 1', 'exemplo de dados X'),
---   ('exemplo de dados 2', 'exemplo de dados Y');
+--   ('exemplo de dados 2', 'exemplo de dados Y')
