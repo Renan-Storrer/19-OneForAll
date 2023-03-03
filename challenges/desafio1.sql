@@ -43,7 +43,7 @@ CREATE TABLE tabela_cancoes(
 CREATE TABLE tabela_seguindo_artistas(
 	usuario_id INT NOT NULL,
   artista_id INT NOT NULL,
-  PRIMARY KEY (usuario_id, artista_id),
+  CONSTRAINT PRIMARY KEY (usuario_id, artista_id),
   FOREIGN KEY (usuario_id) REFERENCES tabela_usuarios(usuario_id),
   FOREIGN KEY (artista_id) REFERENCES tabela_artistas(artista_id)
 ) engine = InnoDB;
@@ -52,7 +52,7 @@ CREATE TABLE tabela_reproducoes(
 	usuario_id INT NOT NULL,
   cancao_id INT NOT NULL,
   data_reproducao TIMESTAMP NOT NULL,
-  PRIMARY KEY (usuario_id, cancao_id),
+  CONSTRAINT PRIMARY KEY (usuario_id, cancao_id),
   FOREIGN KEY (usuario_id) REFERENCES tabela_usuarios(usuario_id),
   FOREIGN KEY (cancao_id) REFERENCES tabela_cancoes(cancao_id)
 ) engine = InnoDB;
